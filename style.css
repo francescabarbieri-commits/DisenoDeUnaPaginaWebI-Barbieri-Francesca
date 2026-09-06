@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+
+
+*{
+	margin:0px;  
+	border:0px;  
+	padding:0px;  
+	}
+
+ 
+body {
+	background-color: #766c93; 
+    margin-top: 10px;
+	}
+
+ 
+#contenedor {
+	margin: auto;  
+	height: auto; 
+	width: 95%; 
+	}
+
+ 
+#encabezado {
+	background-color: #37184b;  
+	height: 100px; 
+	background-image: url();  
+	}
+ 
+#encabezado ul {
+	float: right;  
+	height: 80px;  
+	width: 1500px;  
+	margin-top: 10px;  
+	}
+
+#encabezado ul li {
+	line-height: 40px;  
+	text-align: center;  
+	vertical-align: middle;  
+	width: 200px;  
+	list-style-type: none;  
+	float: left;  
+	}
+
+#encabezado ul li a {
+	font-family: "Arial Black", Gadget, sans-serif;  
+	font-size: 14px; 
+	font-weight: 600; 
+	text-transform: uppercase;  
+	color: #FFF; 
+	text-decoration: none;  
+	}
+
+#banner{
+	background-repeat: no-repeat;  
+	background-position: center;
+    font-family: Arial, Helvetica, sans-serif; 
+	font-size: 16px;  
+	font-weight: 100; 
+    color: #fff;  
+    text-align: center;  
+	line-height: 30px;  
+	vertical-align: middle;
+    margin-top: 7px;   
+	height: 500px; 
+	background-image: url(https://assets-blog.hostgator.mx/wp-content/uploads/2024/09/AnyConv.com__310509635_f67e67ed-6a6f-4352-96d1-24419861f393-scaled.webp); 
+}
+
+#centro {
+	background-color: rgb(55, 26, 87);  
+	height: auto;  
+	overflow: hidden;  
+}
+
+.cajas{
+	float: left;  
+	width: 30%; 
+	margin-top: 20px;  
+	margin-right: 10px;  
+	margin-bottom: 20px; 
+	margin-left: 23px;  
+	background-color: #ffffff;
+	color: #000000;  
+	background-image: url();  
+	}
+
+.cajas img {
+	width: 100%;  
+	height: auto;  
+	display: block; 
+    background-image: url(https://universodigital.org/wp-content/uploads/Introduccion-a-Linux2.jpg);
+    background-image: url(img/historia-del-internet.jpg);
+    background-image: url(img/software.jpg);
+    background-image: url(img/hardware2.webp);
+    background-image: url(img/IA.webp);
+    background-image: url(img/ciberseguridad.webp);
+
+	}
+
+
+
+p {
+	font-family: "Times New Roman", Times, serif;  
+	font-size: 16px;   
+	text-align: left;  
+	margin-right: 10px;  
+	margin-left: 10px; 
+	line-height: 30px; 
+}
+
+h3 {
+	font-family: Tahoma, Geneva, sans-serif;  
+	font-size: 22px;  
+	color: rgb(23, 9, 31); 
+	text-align: center;  
+	text-transform: uppercase;  
+	margin-bottom: 30px;  
+	margin-top:30px;  
+}
+ 
+#pie {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 16px;  
+	font-weight: 100;  
+	color: #FFF;  
+	background-color: #000; 
+	text-align: center;  
+	line-height: 30px;  
+	vertical-align: middle;  
+	height: 40px;  
+}
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(55, 26, 87);
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+}
