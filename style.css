@@ -1,6 +1,5 @@
+
 @charset "utf-8";
-
-
 
 *{
 	margin:0px;  
@@ -8,26 +7,26 @@
 	padding:0px;  
 	}
 
- 
+
 body {
 	background-color: #766c93; 
     margin-top: 10px;
 	}
 
- 
+
 #contenedor {
 	margin: auto;  
 	height: auto; 
 	width: 95%; 
 	}
 
- 
+
 #encabezado {
 	background-color: #37184b;  
 	height: 100px; 
-	background-image: url();  
+
 	}
- 
+
 #encabezado ul {
 	float: right;  
 	height: 80px;  
@@ -65,7 +64,7 @@ body {
 	vertical-align: middle;
     margin-top: 7px;   
 	height: 500px; 
-	background-image: url(https://assets-blog.hostgator.mx/wp-content/uploads/2024/09/AnyConv.com__310509635_f67e67ed-6a6f-4352-96d1-24419861f393-scaled.webp); 
+	background-image: url(img/codigo_binario.webp);
 }
 
 #centro {
@@ -83,22 +82,15 @@ body {
 	margin-left: 23px;  
 	background-color: #ffffff;
 	color: #000000;  
-	background-image: url();  
 	}
+
 
 .cajas img {
 	width: 100%;  
 	height: auto;  
 	display: block; 
-    background-image: url(https://universodigital.org/wp-content/uploads/Introduccion-a-Linux2.jpg);
-    background-image: url(img/historia-del-internet.jpg);
-    background-image: url(img/software.jpg);
-    background-image: url(img/hardware2.webp);
-    background-image: url(img/IA.webp);
-    background-image: url(img/ciberseguridad.webp);
 
 	}
-
 
 
 p {
@@ -118,6 +110,14 @@ h3 {
 	text-transform: uppercase;  
 	margin-bottom: 30px;  
 	margin-top:30px;  
+}
+
+h4 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;  
+	color: rgb(253, 252, 254);
+	text-align: center; 
+	text-transform: uppercase;
 }
  
 #pie {
